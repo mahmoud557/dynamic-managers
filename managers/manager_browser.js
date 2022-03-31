@@ -64,7 +64,7 @@ class Manager_Browser{
 						headless: !visible_stat,
 					    slowMo:50,
 					    defaultViewport: null,
-					    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+					    //executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
 					    ignoreDefaultArgs: ["--disable-extensions"],
 					    ignoreHTTPSErrors: true,
 					    args: ['--disable-web-security','--disable-raf-throttling', '--disable-background-timer-throttling', '--disable-renderer-backgrounding','--allow-file-access-from-files','--enable-features=NetworkService','--no-sandbox','--window-size=1366,768','--disable-features=IsolateOrigins,site-per-process']
@@ -90,7 +90,7 @@ class Manager_Browser{
 				    slowMo:50,
 				    defaultViewport: null,
 				    ignoreDefaultArgs: ["--disable-extensions"],
-				    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+				    //executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
 				    ignoreHTTPSErrors: true,
  					args: ['--disable-web-security','--disable-raf-throttling', '--disable-background-timer-throttling', '--disable-renderer-backgrounding','--allow-file-access-from-files','--enable-features=NetworkService','--no-sandbox','--window-size=1366,768','--disable-features=IsolateOrigins,site-per-process']
 				})
